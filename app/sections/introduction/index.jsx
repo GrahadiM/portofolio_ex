@@ -13,6 +13,9 @@ export function WelcomeSection() {
 	const isInView = useInView(ref, { once: true });
 	const { scrollToEl } = useScrollTo();
 	const isTabletUp = useMediaQuery("min-width: 768px");
+	const author        = `${process.env.NEXT_PUBLIC_SANITY_AUTHOR}`;
+	const company 		= `${process.env.NEXT_PUBLIC_SANITY_COMPANY}`;
+	const url           = `${process.env.NEXT_PUBLIC_SANITY_URL}`;
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
@@ -52,7 +55,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Vasile</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>{author}</mark> a <mark>passionate</mark> software developer.
 							</p>
 						</h1>
 

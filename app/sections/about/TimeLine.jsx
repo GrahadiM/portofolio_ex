@@ -4,11 +4,57 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2023, text: "Start my journey as a Flutter developer" },
-	{ year: 2022, text: "Start my journey as a React developer" },
-	{ year: 2021, text: "Dive completely into React.js" },
-	{ year: 2018, text: "Work as a WordPress developer" },
-	{ year: 2017, text: "Start a 3mo WordPress internship" }
+	{ year: 2024, text: "We are committed to assisting UMKM and Entrepreneurs in Indonesia with high quality services, ensuring local products have the same standards as foreign products." },
+	{ 
+		year: 2023,
+		text: (
+            <span>
+                ◉ Company Profile PT. Nusantara Power
+                <br />
+                ◉ Photo & Video Product PT. Kemenangan Andalan Kemasan
+                <br />
+                ◉ Personal Branding Marcos Nasution
+                <br />
+                ◉ Podcast ICDX Group
+                <br />
+                ◉ Video Product Ability Apparel
+                <br />
+                ◉ Photo Product Mattea Social Space
+                <br />
+                ◉ Photo Product Sambal Bali
+                <br />
+            </span>
+        ),
+	},
+	{
+		year: 2022,
+		text: (
+            <span>
+                ◉ Company Profile Java Halu Coffee Farm
+                <br />
+                ◉ Digital Branding Ajeep Coffee
+                <br />
+                ◉ Official Music Video “Negeri Nirwana”
+                <br />
+                ◉ Photo Product Kupie LON
+                <br />
+            </span>
+        ),
+	},
+	{
+		year: 2021,
+		text: (
+            <span>
+                ◉ Podcast Production Ability Channel
+                <br />
+                ◉ HOS (History On Searching) Monolog
+                <br />
+                ◉ POS (Power of Silaturahim)
+                <br />
+            </span>
+        ),
+	},
+	{ year: 2020, text: "Start a creation of Ability Pictures" }
 ];
 
 export function TimeLine() {

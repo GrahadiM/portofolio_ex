@@ -1,5 +1,6 @@
 {
-	"name": "next-portfolio",
+	"name": "abilitypictures-portfolio",
+	"author": "Abdurrahman GM",
 	"version": "1.0.3",
 	"private": true,
 	"scripts": {

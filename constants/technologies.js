@@ -3,7 +3,8 @@ import { DiCss3, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaWordpressSimple, FaFigma, FaTrello } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
-import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandTailwind, TbBrandKotlin } from "react-icons/tb";
+import { DiPhp, DiLaravel, DiCodeigniter } from "react-icons/di";
 import { RiFlutterFill } from "react-icons/ri";
 import AdobeXDIcon from "public/assets/svg/adobexd.svg";
 import ZeplinIcon from "public/assets/svg/zeplin.svg";
@@ -16,32 +17,39 @@ import StyledIcon from "public/assets/svg/styledcomponents.svg";
 
 export const TECHNOLOGIES = [
 	{
-		category: "Mobile",
-		items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
-	},
-	{
-		category: "Front-end",
-		items: [
-			{ name: "HTML", icon: <AiFillHtml5 size={32} /> },
-			{ name: "CSS", icon: <DiCss3 size={32} /> },
-			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
-			{ name: "React", icon: <FaReact size={32} /> },
-			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
-			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
-			{ name: "MUI", icon: <MuiIcon width={32} /> },
-			{ name: "AntD", icon: <AiOutlineAntDesign size={32} /> },
-			{ name: "Bootstrap", icon: <BsBootstrap size={32} /> },
-			{ name: "Chakra", icon: <ChakraIcon width={32} /> },
-			{ name: "styled components", icon: <StyledIcon width={32} /> },
-			{ name: "HeadlessUI", icon: <HeadlessUiIcon width={32} /> }
-		]
-	},
-	{
 		category: "UI tools",
 		items: [
 			{ name: "Figma", icon: <FaFigma size={32} /> },
 			{ name: "Zeplin", icon: <ZeplinIcon width={36} /> },
 			{ name: "XD", icon: <AdobeXDIcon width={32} /> }
+		]
+	},
+	{
+		category: "App Development",
+		items: [
+			{ name: "Flutter", icon: <RiFlutterFill size={32} /> },
+			{ name: "React Native", icon: <FaReact size={32} /> },
+			// { name: "Kotlin", icon: <TbBrandKotlin size={32} /> }
+		]
+	},
+	{
+		category: "Web Development",
+		items: [
+			{ name: "HTML", icon: <AiFillHtml5 size={32} /> },
+			{ name: "CSS", icon: <DiCss3 size={32} /> },
+			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
+			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
+			{ name: "Bootstrap", icon: <BsBootstrap size={32} /> },
+			{ name: "React", icon: <FaReact size={32} /> },
+			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
+			{ name: "PHP", icon: <DiPhp size={32} /> },
+			{ name: "Laravel", icon: <DiLaravel size={32} /> },
+			{ name: "Codeigniter", icon: <DiCodeigniter size={32} /> },
+			// { name: "MUI", icon: <MuiIcon width={32} /> },
+			// { name: "AntD", icon: <AiOutlineAntDesign size={32} /> },
+			// { name: "Chakra", icon: <ChakraIcon width={32} /> },
+			// { name: "styled components", icon: <StyledIcon width={32} /> },
+			// { name: "HeadlessUI", icon: <HeadlessUiIcon width={32} /> }
 		]
 	},
 	{

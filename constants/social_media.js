@@ -1,22 +1,22 @@
-import { BsFillEnvelopeOpenFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsYoutube, BsTiktok, BsInstagram } from "react-icons/bs";
 
 export const SOCIAL_MEDIA = [
 	{
-		id: "linkedin",
-		icon: <BsLinkedin />,
-		title: "Visit LinkedIn profile",
-		url: "https://www.linkedin.com/in/vasile-novatchii"
+		id: "youtube",
+		icon: <BsYoutube />,
+		title: "Visit Youtube Profile",
+		url: "https://www.youtube.com/@abilitypictures"
 	},
 	{
-		id: "github",
-		icon: <BsGithub />,
-		title: "Visit Github profile",
-		url: "https://github.com/Infvyr"
+		id: "tiktok",
+		icon: <BsTiktok />,
+		title: "Visit Tiktok Profile",
+		url: "https://www.tiktok.com/@abilitypictures.official"
 	},
 	{
-		id: "mail",
-		icon: <BsFillEnvelopeOpenFill />,
-		title: "Send me an email",
-		url: "mailto://vnovatchi@gmail.com"
+		id: "instagram",
+		icon: <BsInstagram />,
+		title: "Visit Instagram Profile",
+		url: "https://www.instagram.com/abilitypictures.id"
 	}
 ];

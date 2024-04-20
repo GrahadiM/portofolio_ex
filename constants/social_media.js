@@ -17,6 +17,6 @@ export const SOCIAL_MEDIA = [
 		id: "instagram",
 		icon: <BsInstagram />,
 		title: "Visit Instagram Profile",
-		url: "https://www.instagram.com/abilitypictures.id"
+		url: "https://www.instagram.com/abilitypictures.umkm"
 	}
 ];
